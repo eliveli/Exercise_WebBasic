@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #main {
+            background-color: #ffeeee;
+            text-align: center;
+        }
+
+
+        #img-div {
+            background: white;
+            margin: 10px;
+            padding-bottom: 0;
+        }
+
+        #image {
+
+            max-width: 95%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        #img-caption {
+            width: 96%;
+            margin: 15px auto;
+            padding-bottom: 15px;
+        }
+
+        #tribute-info {
+            text-align: left;
+            width: 80%;
+            margin: auto;
+        }
+
+        #tribute-info > h4 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<div id="main">
+    <h1 id="title">
+        Arirang
+    </h1>
+    <p>Korean folk song that is often considered to be the anthem of Korea</p>
+    <div id="img-div">
+
+        <img src="https://upload.wikimedia.org/score/0/a/0a4zqw0dim2nwrmlbij7dxmr5spr3mg/0a4zqw0d.png" id="image">
+        <p id="img-caption">Musical Score</p>
+    </div>
+
+    <div id="tribute-info">
+        <h4>History</h4>
+        <p>
+            It is believed that "Arirang" originated in Jeongseon, Gangwon Province. "Arirang" as a term today is
+            ambiguous in meaning, but some linguists have hypothesized that "ari" (아리) might have meant "beautiful" in
+            ancient Korean and that "rang" (랑) might have been a way of referring to a "groom." According to a legend,
+            the name is derived from the story of a bachelor and a maiden who fell in love while picking Camellia
+            blossoms near the wharf at Auraji (아우라지) — a body of water which derives its name from the Korean word
+            "eoureojida" (어우러지다) that translates to something close to "be in harmony" or "to meet," like Auraji
+            connects the waters of Pyeongchang and Samcheok to the Han River. There are two versions of this story. In
+            the first one, the bachelor cannot cross the Auraji to meet the maiden because the water is too high and so,
+            they sing a song to express their sorrow. In the second version, the bachelor attempts to cross the Auraji
+            and drowns, singing the sorrowful song after he dies.
+
+            Other theories on the origin of the name "Arirang" point to Lady Aryeong, wife of the first king of Silla;
+            "arin," the Jurchen word for "hometown"."
+        </p>
+
+    </div>
+    <h4>
+        If you have time, you should read more about this on <a id="tribute-link" target="_blank"
+                                                                href="https://en.wikipedia.org/wiki/Arirang">Wikipedia.</a>
+    </h4>
+</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
