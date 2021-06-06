@@ -1,2 +1,1 @@
-# FCC portfolio 5 (Web basics - html, css, js)
-not perfect just exercise...
+# Exercise _ Web Basic (FCC reference)
