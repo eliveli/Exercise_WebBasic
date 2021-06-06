@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(https://cdn.pixabay.com/photo/2017/01/05/04/51/valentine-1953964_960_720.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.6);
+            background-blend-mode: lighten;
+        }
+
+        #header {
+            position: sticky;
+            top: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #header-img {
+            width: 300px;
+            opacity: 0.7;
+            padding-left: 20px;
+        }
+
+        #nav-bar a {
+            text-decoration: none;
+            color: #FE532E;
+            padding: 5px;
+            margin: 10px;
+            background: rgba(254, 83, 46, 0.1);
+            font-size: 25px;
+
+        }
+
+        #form {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #email {
+            margin-right: 7px;
+            padding: 7px;
+            border: 0;
+            opacity: 0.7;
+        }
+
+        #submit {
+            border: 0;
+            opacity: 0.7;
+            background-color: #eee;
+            color: gray;
+        }
+
+        #beautiful {
+            display: flex;
+            justify-content: center;
+            margin: 40px auto;
+        }
+
+        @media (max-width: 860px) {
+            #header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <image id="header-img" src="https://cdn.pixabay.com/photo/2017/09/16/12/04/flowers-2755297_960_720.png"
+           alt="flower">
+
+        <nav id="nav-bar">
+            <a href="#morphology" class="nav-link">Morphology
+            </a>
+            <a href="#beautiful" class="nav-link">How Beautiful
+            </a>
+            <a href="#price" class="nav-link">Price
+            </a>
+        </nav>
+</header>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" placeholder="Enter your email" name="email" id="email">
+    <input type="submit" id="submit">
+</form>
+
+<div id="morphology">
+    <h4>Floral Parts</h4>
+    The essential parts of a flower can be considered in two parts: the vegetative part, consisting of petals and
+    associated structures in the perianth, and the reproductive or sexual parts. A stereotypical flower consists of four
+    kinds of structures attached to the tip of a short stalk. Each of these kinds of parts is arranged in a whorl on the
+    receptacle...
+
+    <h4>Structure</h4>
+    Although the arrangement described above is considered "typical", plant species show a wide variation in floral
+    structure.[3] These modifications have significance in the evolution of flowering plants and are used extensively by
+    botanists to establish relationships among plant species...
+    <p>For more information, click <a href="https://en.wikipedia.org/wiki/Flower" target="_blank">here</a></p>
+</div>
+
+<div id="beautiful">
+    <video controls width="50%" id="video">
+        <source src="" type="video/mp4">
+        </source>
+    </video>
+</div>
+
+<div id="price">
+</div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
