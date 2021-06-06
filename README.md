@@ -1,2 +1,2 @@
-# Exercise _ Web Basic (FCC reference)
+# Exercise _ Web Basic (FreeCodeCamp)
 FCC is really nice and interesting :)
