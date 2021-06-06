@@ -1,1 +1,1 @@
-# Web Basic Portfolio (Reference: FreeCodeCamp)
+# Web Basic Portfolio (FreeCodeCamp)
