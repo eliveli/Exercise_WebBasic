@@ -1,2 +1,2 @@
 # Exercise _ Web Basic (FCC reference)
-html css
+FCC is really nice and interesting :)
